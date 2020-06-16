@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-page {
+  min-height: 100vh;
+  background-color: red;
+  display: flex;
+}
+
+.main-page2 {
+  background-color: pink;
+}
+
+.main-page3 {
+  background: url("../images/paralax-bg.jpg") no-repeat center/cover fixed;
+}
+
+.container {
+  flex: 1 1 auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
